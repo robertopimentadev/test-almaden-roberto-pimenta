@@ -1,25 +1,12 @@
 import { Router } from "express";
+import { PasswordCardController } from "../controllers/passwordCard.controller";
 
 const router = Router();
+const controller = new PasswordCardController();
 
-// GET /password-cards
-router.get("/", (req, res) => {
-    return res.json({ message: "List all password cards" });
-});
-
-// POST /password-cards
-router.post("/", (req, res) => {
-    return res.json({ message: "Create new password card" });
-});
-
-// PUT /password-cards/:id
-router.put("/:id", (req, res) => {
-    return res.json({ message: "Update password card" });
-});
-
-// DELETE /password-cards/:id
-router.delete("/:id", (req, res) => {
-    return res.json({ message: "Delete password card" });
-});
+router.get("/", controller.getAll);
+router.post("/", controller.create);
+router.put("/:id", controller.update);
+router.delete("/:id", controller.delete);
 
 export default router;
