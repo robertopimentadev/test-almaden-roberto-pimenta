@@ -4,15 +4,14 @@
   "description": "Teste técnico desenvolvedor Almaden - Roberto Ayres Pimenta",
   "main": "index.js",
   "scripts": {
-    "postinstall": "cd backend && npm install && cd ../frontend && npm install",
-    "dev": "npm-run-all --parallel dev:*",
-    "dev:frontend": "cd frontend && npm run dev",
-    "dev:backend": "cd backend && npm run dev"
+    "setup": "npm install && npm start",
+    "postinstall": "concurrently \"cd backend && npm install\" \"cd frontend && npm install\"",
+    "start": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm run dev\""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "npm-run-all": "^4.1.5"
+    "concurrently": "^9.2.1"
   }
 }
