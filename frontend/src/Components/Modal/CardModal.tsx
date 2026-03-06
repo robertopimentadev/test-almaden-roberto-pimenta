@@ -73,9 +73,7 @@ export default function CardModal({ card, onClose, onSuccess }: ICardModal) {
 
   return (
     <div className="flex flex-col gap-3">
-      <h2 className="text-lg font-semibold">
-        {card ? "Edit Card" : "New Card"}
-      </h2>
+      <h2 className="text-lg font-semibold">{card ? "Edit" : "New"}</h2>
       <InputField
         placeholder="Name"
         value={name}

@@ -1,37 +1,44 @@
 [
   {
     "id": "126c3f19-381b-44ab-bc7f-1f13282c8ed9",
-    "url": "https://github.com/robertopimentadev",
+    "url": "https://github.com/",
     "name": "GitHub",
-    "username": "robertopimentadev",
-    "password": "123456789ddd"
+    "username": "_user",
+    "password": "password"
   },
   {
     "id": "a836284e-23d8-4bdf-b5b7-3bb39ecc1836",
     "url": "https://www.facebook.com",
-    "name": "Roberto Ayres Pimenta",
-    "username": "robertopimenta",
-    "password": "123456789"
+    "name": "Facebook",
+    "username": "_user",
+    "password": "password"
   },
   {
     "id": "74be7772-313d-4bfe-a1bc-29301ef02e52",
-    "url": "www.instagram.com",
+    "url": "http://www.instagram.com",
     "name": "Instagram",
-    "username": "robertoapim",
-    "password": "asdfasdfasdf"
+    "username": "_user",
+    "password": "password"
   },
   {
     "id": "a009db3d-53ec-4f6a-a557-c3288c13ce11",
     "url": "https://www.vivo.com",
     "name": "VIVO",
-    "username": "robertopimenta",
-    "password": "asdfasdfasdf"
+    "username": "_user",
+    "password": "password"
   },
   {
     "id": "57f6d1f5-a62b-4d56-a58d-1564e77b14d0",
     "url": "https://www.youtube.com",
     "name": "Youtube",
-    "username": "robertopimenta",
-    "password": "123456"
+    "username": "_user",
+    "password": "password"
+  },
+  {
+    "id": "bc57701d-1d92-4021-ae10-623f52046ee1",
+    "url": "https://www.almaden.ai",
+    "name": "Almaden AI",
+    "username": "_user",
+    "password": "pasword"
   }
 ]
