@@ -35,7 +35,7 @@ This structure allows the application to scale more easily and keeps the codebas
 ## Tech Stack
 
 - Node.js (With express, due to the simplicity of the project.)
-- React
+- React/Vite
 - TypeScript
 - Express
 
