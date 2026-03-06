@@ -44,11 +44,11 @@ This structure allows the application to scale more easily and keeps the codebas
 #### Home
 
 <p align="center">
-  <img src="screenshots/Home.png" style="border:1px solid #ccc; border-radius:8px;" />
+  <img src="screenshots/Home.png" border="1" />
 </p>
 <h4>New</p>
 <p align="center">
-  <img src="screenshots/New.png" style="border:1px solid #ccc; border-radius:8px;" />
+  <img src="screenshots/New.png" border="1" />
 </p>
 
 </p>
