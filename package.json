@@ -1,0 +1,17 @@
+{
+  "name": "test-almaden-roberto-pimenta",
+  "version": "1.0.0",
+  "description": "Teste técnico desenvolvedor Almaden - Roberto Ayres Pimenta",
+  "main": "index.js",
+  "scripts": {
+    "setup": "npm install && npm start",
+    "postinstall": "concurrently \"cd backend && npm install\" \"cd frontend && npm install\"",
+    "start": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm run dev\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
