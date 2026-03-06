@@ -34,7 +34,7 @@ This structure allows the application to scale more easily and keeps the codebas
 
 ## Tech Stack
 
-- Node.js
+- Node.js (With express, due to the simplicity of the project.)
 - React
 - TypeScript
 - Express
@@ -42,10 +42,10 @@ This structure allows the application to scale more easily and keeps the codebas
 ## Screenshots
 
 <p align="center">
-  <img src="screenshots/Home.png" />
+  <img src="screenshots/Home.png" style="border:1px solid #ccc; border-radius:8px;" />
 </p>
 <p align="center">
-  <img src="screenshots/New.png" width="45%" />
+  <img src="screenshots/New.png" style="border:1px solid #ccc; border-radius:8px;" />
 </p>
 
 </p>
