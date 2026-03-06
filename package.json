@@ -6,7 +6,7 @@
   "scripts": {
     "setup": "npm install && npm start",
     "postinstall": "concurrently \"cd backend && npm install\" \"cd frontend && npm install\"",
-    "start": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm run dev\""
+    "start": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm run dev -- --host\""
   },
   "keywords": [],
   "author": "",
